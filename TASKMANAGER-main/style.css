@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.507);
+}
+
+.container {
+    background-color: #242fa2;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.479);
+    width: 30rem;
+    min-height: 10rem;
+    transition: min-height 0.3s; /* Add smooth transition for height change */
+}
+
+
+h1{
+    font-family:'Baloo Bhai';
+    letter-spacing: 1.5px;
+    color: #f64c72;
+    text-shadow: 1px 2px #242582;
+    margin: 25px 25px ;
+    font-weight: lighter;
+}
+
+h2{
+    font-family:'Baloo Bhai';
+    letter-spacing: 1.5px;
+    color: #f64c72;
+    text-shadow: 1px 2px #242582;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    margin-left: 25px;
+}
+
+.add{
+    margin: 5px 25px;
+    display: flex;
+}
+.textbar{
+    height: 30px;
+    font-size: 1.2rem;
+    color: white;
+    font-family: cursive;
+    padding: 5px 5px;
+    background: transparent;
+    border: 2px solid #f64c72;
+    border-radius: 5px;
+    transition: ease-in 0.2s;
+
+}
+
+.textbar:hover{
+    background-color:rgba(255, 255, 255, 0.105);
+    outline: 1px #f64c72;
+
+}
+
+.btn{
+    height: 44px;
+    background-color: #f64c72;
+    margin-left: 25px;
+    padding: 5px 25px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px solid black;
+}
+
+.btn:hover{
+    background-color:rgba(255, 255, 255, 0.105);
+    border: 2px solid #f64c72;
+    color: white;
+    /* outline: 1px black; */
+
+}
+
+.task{
+    margin: 5px 25px;
+    border: 2px solid #f64c72;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.task input{
+    height: 30px;
+    font-size: 1.2rem;
+    font-family: cursive;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.507);
+    border: transparent;
+    outline: none;
+    transition: ease-in 0.2s;
+}
+
+.edit{
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.047);
+    margin-left: 20px;
+    padding: 0px 10px ;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: #f64c72;
+}
+
+.edit:hover{
+    background-color:#f64c72;
+    outline: none;
+    border: none;
+    color: white;
+
+}
+
+.del{
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.047);
+    margin-left: 5px;
+    padding: 0px 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: #f64c72;
+}
+.del:hover{
+    background-color:#f64c72;
+    outline: none;
+    border: none;
+    color: white;
+
+}
